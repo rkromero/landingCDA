@@ -110,13 +110,17 @@ export default function LandingPage() {
         </div>
       </header>
 
-      <section className="relative bg-gradient-to-br from-purple-50 to-indigo-100 py-12 sm:py-16 lg:py-20 px-3 sm:px-6 lg:px-8 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-amber-50 to-orange-100 py-12 sm:py-16 lg:py-20 px-3 sm:px-6 lg:px-8 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
           style={{
-            backgroundImage: `url('/galletas-macarons-hero.jpg')`,
+            backgroundImage: `url('/tapas-de-alfajores-argentinos-cacao-maicena-vainil.jpg')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
           }}
         />
+        <div className="absolute inset-0 bg-white/20"></div>
         <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-8 sm:mb-12">
             <Badge className="mb-3 sm:mb-4 bg-[#6C47FF] text-white text-xs sm:text-sm px-3 py-1">
