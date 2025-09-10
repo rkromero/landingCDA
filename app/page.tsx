@@ -114,7 +114,7 @@ export default function LandingPage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
           style={{
-            backgroundImage: `url('/tapas-de-alfajores-argentinos-cacao-maicena-vainil.jpg')`,
+            backgroundImage: `url('/galletas-macarons-hero.jpg')`,
           }}
         />
         <div className="relative z-10 max-w-7xl mx-auto">
